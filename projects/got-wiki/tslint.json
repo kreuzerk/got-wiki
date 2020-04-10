@@ -4,13 +4,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "lib",
+      "got-wiki",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "lib",
+      "got-wiki",
       "kebab-case"
     ]
   }
