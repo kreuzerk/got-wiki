@@ -2,15 +2,15 @@ import {NgModule} from '@angular/core';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 
-import {GotWikiJohnSnowComponent} from './john-snow.component';
+import {GotWikiBranStarkComponent} from './bran-stark.component';
 
 @NgModule({
   imports: [
     MatCardModule,
     MatButtonModule
   ],
-  declarations: [GotWikiJohnSnowComponent],
-  exports: [GotWikiJohnSnowComponent]
+  declarations: [GotWikiBranStarkComponent],
+  exports: [GotWikiBranStarkComponent]
 })
-export class GotWikiJohnSnowModule {
+export class GotWikiBranStarkModule {
 }
