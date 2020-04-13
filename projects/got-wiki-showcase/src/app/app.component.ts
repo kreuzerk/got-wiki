@@ -3,11 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styles: [`
-    div {
-      display: flex;
-    }
-  `]
+  styleUrls: [`./app.component.scss`]
 })
 export class AppComponent {
   title = 'got-wiki-showcase';
