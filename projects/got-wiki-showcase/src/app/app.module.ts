@@ -1,11 +1,10 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import {GotWikiJohnSnowModule} from '../../../got-wiki/src/lib/john-snow/john-snow.module';
-import {GotWikiAryaStarkModule} from '../../../got-wiki/src/lib/arya-stark/arya-stark.module';
-import {GotWikiBranStarkModule} from '../../../got-wiki/src/lib/bran-stark/bran-stark.module';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+
+import {GotWikiStarksModule} from '../../../got-wiki/src/lib/starks/starks.module';
 
 @NgModule({
   declarations: [
@@ -14,9 +13,7 @@ import {GotWikiBranStarkModule} from '../../../got-wiki/src/lib/bran-stark/bran-
     imports: [
         BrowserModule,
         AppRoutingModule,
-        GotWikiJohnSnowModule,
-        GotWikiAryaStarkModule,
-        GotWikiBranStarkModule
+        GotWikiStarksModule
     ],
   providers: [],
   bootstrap: [AppComponent]

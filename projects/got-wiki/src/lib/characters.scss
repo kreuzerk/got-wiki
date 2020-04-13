@@ -1,5 +1,13 @@
+:host {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
 .got-character-card {
   width: 400px;
+  align-self: stretch;
+  flex-grow: 1;
 
   mat-card-header {
     display: block;
@@ -36,3 +44,7 @@
     font-size: 20px;
   }
 }
+
+
+
+
